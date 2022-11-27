@@ -1,0 +1,89 @@
+body{
+    background-image:url("E:/MK/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img{
+    width: 80px;
+    border: 1px solid rgb(191, 48, 235);
+    margin: 12px;
+    box-shadow: 2px 2px  3px black;
+}
+ul{
+    display: inline-flex;
+    vertical-align:middle;
+    margin-left: 9rem;
+    color: white;
+}
+li{
+    display: inline;
+    position: relative;
+    left: 35rem;
+    padding:2rem;
+    font-weight: bolder;
+}
+li:hover{
+    color:gold;
+    border-radius:100%;
+}
+h1{
+    text-align: center;
+    color: wheat;
+    text-decoration:underline;
+}
+h2{
+    color: white;
+}
+form{
+    width: 31rem;
+    height: 40rem;
+    float: left;
+    border: 1px solid none;
+    border-radius: 5px;
+    position:relative;
+    left: 4rem;
+    color: white; 
+}
+.sidecontent{
+    width: 30rem;
+    position: relative;
+    left:4rem;
+    top: 40px;
+    border: 1px solid none;
+overflow: hidden;
+}
+.sidecontent h2{
+    text-align: center;
+}
+.sidecontent p{
+    text-align:center;
+}
+form h3{
+    padding-left: 15px;
+}
+form p{
+    padding-left: 15px;
+}
+form a{
+    color: rgb(238, 175, 188);
+}
+form a:hover{
+    color: aquamarine;
+}
+.form-control{
+    margin-left: 20px;
+}
+label{
+    margin-left: 20px;
+}
+.form-control{
+    margin-bottom: 10px;
+}
+.form-check-input{
+    margin-left: 20px;
+}
+.btn-danger{
+    margin-left: 8rem;
+    margin-top: 20px;
+    width: 7rem;
+}
